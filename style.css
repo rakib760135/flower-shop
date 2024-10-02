@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial;
 }
 
 .flex {
@@ -15,8 +16,9 @@
 /* Navbar */
 nav {
   background: #fceef1;
-  padding: 15px 0;
+  padding: 15px 12px;
   justify-content: space-between;
+
 }
 
 .logo h4 {
@@ -62,7 +64,7 @@ nav button {
 }
 
 .hero-left h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -74,7 +76,7 @@ nav button {
 
 .hero-left button {
   background-color: #e55473;
-  color: white;
+  color:white;
   border: none;
   padding: 15px 25px;
   border-radius: 8px;
@@ -95,6 +97,7 @@ nav button {
 
 .flower-section .title h1 {
   font-size: 50px;
+  padding-bottom: 25px;
 }
 
 .flower-section .title p {
@@ -102,6 +105,7 @@ nav button {
   margin: 0 auto;
   font-size: 17px;
   color: rgb(124, 124, 124);
+
 }
 
 .flower-box {
@@ -176,3 +180,183 @@ nav button {
   color: rgb(84, 84, 84);
   margin: 5px;
 }
+
+ /* Signup section */
+
+ .signup{
+  margin-top: 40px;
+  margin-bottom: 90px;
+  background-color:#fceef1;
+  padding: 50px;
+ }
+
+/* sign up left */
+
+ .signup-left{
+  width: 50%;
+ }
+ .signup-left{
+  text-align: center;
+  align-content: center;
+
+ }
+ .signup-left h2 #off{
+  color: #e55473;
+ }
+
+ .signup-left p{
+  padding: 25px;
+  color: rgb(124, 124, 124);
+ }
+
+ .signup-left button{
+  background-color: #e55473;
+  color:white;
+  font-size: 17px;
+  font-weight: 650;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  
+  cursor: pointer;
+ }
+
+ /* signup right */
+
+ .signup-right{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ /* Instagram section */
+
+ .insta-text{
+  text-align: center;
+  margin-bottom: 70px;
+ }
+
+ .insta-text h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+ }
+
+ .insta-text p {
+  color: rgb(124, 124, 124);
+ }
+
+ /* insta image  */
+
+ .insta-imgbox{
+  width: 90%;
+  margin:auto;
+  padding-bottom: 130px;
+
+ }
+
+ .ins-box{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 23px;
+ }
+
+ .ins-box img{
+  width: 23% ;
+  border-radius: 10px;
+ }
+
+
+ /* subscribe section */
+
+ .sub-box {
+  text-align: center;
+  padding: 110px;
+  border-radius: 10px;
+  background-image: url("assets/Rectangle\ 9.png");
+  background-size: cover;
+  margin-bottom: 100px;
+
+}
+.sub-text{
+  margin: 39px;
+}
+
+.sub-box h2{
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.sub-box p{
+  font-size: 13px;
+  color: rgb(124, 124, 124);
+}
+
+
+/* subscribe input section */
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-box input[type='email']{
+  width: 500px;
+  padding: 15px ;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-box input[type='submit']{
+  background-color: #E55473;
+  color: white;
+  font-size: 17px;
+  padding: 13px 26px;
+  font-weight: 650;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Footer section */
+
+footer {
+  background-color: #111010;
+}
+
+.footer-box{
+  text-align: center;
+  padding: 130px;
+}
+
+.footer-box h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 850;
+  margin-bottom: 25px;
+}
+
+.footer-box span{
+  color: #E55473;
+}
+
+.footer-box p {
+  color: white;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.footer-box small {
+  color: rgb(124, 124, 124);
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* footer end */
